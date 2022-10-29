@@ -1,10 +1,8 @@
-Note: this extension is only intended for use in modern Firefox browsers.
+Note: this extension is only intended for use in modern Chrome and Firefox browsers. Additionally, Google has announced that Manifest V2 will be dropped in 2023, so this extension may break by then.
 
 This tool is not meant to be used to gain an unfair advantage, and all features I add are carefully chosen so as to not cause a disproportionate impact in gameplay. For instance, being able to see and share coordinates simply allows teammates to know your location in-game. The same end goal can be achieved through fixed references, such as "I'm near the sun" or "I'm at base," but it simplifies the process.
 
 # Inspiration
-
-*Edit 10.28*
 
 Have you ever been playing with a friend in Survival mode and wanted to organize a meet-up? Usually, you would ask your friend to meet you at a known location, say near the leader or at the sun. Or maybe you were in Team mode, and you wanted your friend to back you up in an attack.
 
@@ -15,8 +13,14 @@ This extension allows you to easily see your current ship coordinates without ha
 Installation is as easy as 1 2 3.
 
 1. Download this repository and extract it to some known location.
+
+For Firefox:
 2. Open Firefox and navigate to "about:debugging", without the quotes.
-3. Click "Load Temporary Addon" and navigate to the extensions folder. Click on any file, say "manifest.json". You're done! You should see a new extension pop up on your toolbar.
+3. Click "Load Temporary Addon" and navigate to the firefox folder. Click on any file, say "manifest.json". You're done! You should see a new extension pop up on your toolbar.
+
+For Chrome:
+2. Open Chrome and navigate to "chrome://extensions" and toggle the "Developer mode" switch in the top right on.
+3. Click "Load unpacked" and click on the chrome folder.
 
 # Usage
 ## Badge
