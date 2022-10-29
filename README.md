@@ -12,13 +12,13 @@ This extension allows you to easily see your current ship coordinates without ha
 
 Installation is as easy as 1 2 3.
 
-1. Download this repository and extract it to some known location.
-
 For Firefox:
+1. Download this repository and extract it to some known location.
 2. Open Firefox and navigate to "about:debugging", without the quotes.
 3. Click "Load Temporary Addon" and navigate to the firefox folder. Click on any file, say "manifest.json". You're done! You should see a new extension pop up on your toolbar.
 
 For Chrome:
+1. Download this repository and extract it to some known location.
 2. Open Chrome and navigate to "chrome://extensions" and toggle the "Developer mode" switch in the top right on.
 3. Click "Load unpacked" and click on the chrome folder.
 
