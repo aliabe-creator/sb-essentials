@@ -1,4 +1,4 @@
-Note: this extension is only intended for use in modern Chrome and Firefox browsers. Additionally, Google has announced that Manifest V2 will be dropped in 2023, so this extension may break by then.
+Note: this extension is only intended for use in modern Chrome and Firefox browsers. Additionally, Google has announced that Manifest V2 support for Chrome will be dropped in 2023, so this extension may break by then.
 
 This tool is not meant to be used to gain an unfair advantage, and all features I add are carefully chosen so as to not cause a disproportionate impact in gameplay. For instance, being able to see and share coordinates simply allows teammates to know your location in-game. The same end goal can be achieved through fixed references, such as "I'm near the sun" or "I'm at base," but it simplifies the process.
 
