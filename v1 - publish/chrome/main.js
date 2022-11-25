@@ -13,8 +13,8 @@ console.log('main content script loaded')
 // inject code into "the other side" to talk back to this side;
 var scr = document.createElement('script');
 scr.textContent = `setInterval(function () { 
-	var x = parseInt(module.exports.settings.lOIOl.IIl0O.l0l00.status.x);
-	var y = parseInt(module.exports.settings.lOIOl.IIl0O.l0l00.status.y);
+	var x = parseInt(module.exports.settings.I1l0l.IIO1O.O1lII.status.x);
+	var y = parseInt(module.exports.settings.I1l0l.IIO1O.O1lII.status.y);
 	console.log(x.toString() + ", " + y.toString()); 
 	var event = new CustomEvent("coordevent", {detail: [x, y]});
 	document.dispatchEvent(event);}, 3000)`; //3500 must be greater than total delay in event listener

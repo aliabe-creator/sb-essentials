@@ -8,7 +8,7 @@ function onError(error) {
 	console.log(`Error: ${error}`);
 }
 
-const copycoords = 'var status = wrappedJSObject.module.exports.settings.lOIOl.IIl0O.l0l00.status; navigator.clipboard.writeText(status.x + ", " + status.y); XPCNativeWrapper(wrappedJSObject.foo);';
+const copycoords = 'var status = wrappedJSObject.module.exports.settings.I1l0l.IIO1O.O1lII.status; navigator.clipboard.writeText(status.x + ", " + status.y); XPCNativeWrapper(wrappedJSObject.foo);';
 
 const copying = browser.tabs.executeScript({
 	code: copycoords

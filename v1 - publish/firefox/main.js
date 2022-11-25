@@ -11,8 +11,8 @@ async function load () {
 	
 	while(1) { //runs as long as starblast.io open
 		//wrappedJSObject needed to access page vars
-		let x = parseInt(wrappedJSObject.module.exports.settings.lOIOl.IIl0O.l0l00.status.x); 
-		let y = parseInt(wrappedJSObject.module.exports.settings.lOIOl.IIl0O.l0l00.status.y);
+		let x = parseInt(wrappedJSObject.module.exports.settings.I1l0l.IIO1O.O1lII.status.x); 
+		let y = parseInt(wrappedJSObject.module.exports.settings.I1l0l.IIO1O.O1lII.status.y);
 		
 		let short_x = "[" + (Math.round(x / 10)).toString();
 		let short_y = (Math.round(y / 10)).toString() + "]";

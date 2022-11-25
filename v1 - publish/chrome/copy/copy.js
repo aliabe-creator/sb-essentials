@@ -9,7 +9,7 @@ function onError(error) {
 }
 
 const copycoords = `var scr = document.createElement('script');
-					scr.textContent = "(function () { var status = module.exports.settings.lOIOl.IIl0O.l0l00.status; navigator.clipboard.writeText(status.x + ', ' + status.y);})();";
+					scr.textContent = "(function () { var status = module.exports.settings.I1l0l.IIO1O.O1lII.status; navigator.clipboard.writeText(status.x + ', ' + status.y);})();";
 					//cram inject in
 					(document.head || document.documentElement).appendChild(scr);
 					//and then hide the evidence as much as possible.
